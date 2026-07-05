@@ -1,0 +1,45 @@
+{
+  "app_name": "G-Movies",
+  "version": "1.0.0",
+
+  "server_url": "https://YOUR-REPOSITORY/config.json",
+
+  "internet_required": true,
+
+  "plan_active": true,
+
+  "startup": {
+    "welcome_video": "welcome.mp4",
+    "offline_video": "offline.mp4",
+    "expiry_video": "expiry.mp4"
+  },
+
+  "advertisement": {
+    "startup_ad": "startup.mp4",
+    "interval_minutes": 30,
+    "enabled": true
+  },
+
+  "offline": {
+    "allow_home": false,
+    "allow_favorites": false,
+    "allow_ads": true,
+    "allow_welcome": true
+  },
+
+  "player": {
+    "resume_after_ad": true,
+    "remember_position": true
+  },
+
+  "sync": {
+    "config": true,
+    "ads": true,
+    "videos": true
+  },
+
+  "ui": {
+    "redirect_page": "favorites",
+    "hide_advanced": true
+  }
+}
